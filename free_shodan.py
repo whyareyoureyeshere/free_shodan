@@ -25,7 +25,7 @@ def find():
 				print(result['data'])
 				print('')
 	except (shodan.APIError)as e:
-    print('Error: {}'.format(e))
+		print('Error: {}'.format(e))
 		var = find()
 print('''
 ╔═══╗╔═══╗╔═══╗╔═══╗   ╔═══╗╔╗ ╔╗╔═══╗╔═══╗╔═══╗╔═╗ ╔╗
