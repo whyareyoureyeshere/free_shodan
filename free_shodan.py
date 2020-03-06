@@ -4,7 +4,7 @@ import os
 import time
 import datetime
 
-SHODAN_API_KEY = "PSKINdQe1GyxGgecYz2191H2JoS9qvgD"
+SHODAN_API_KEY = input("введи api key который тебе выдали: ")
 
 api = shodan.Shodan(SHODAN_API_KEY)
 
